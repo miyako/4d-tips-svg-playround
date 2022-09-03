@@ -1,0 +1,577 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "image",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onUnload",
+		"onTimer"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"L2b": {
+					"type": "rectangle",
+					"top": 222,
+					"left": 572,
+					"width": 140,
+					"height": 30,
+					"visibility": "hidden",
+					"fill": "#808000",
+					"stroke": "transparent"
+				},
+				"L2a": {
+					"type": "text",
+					"top": 229,
+					"left": 572,
+					"width": 140,
+					"height": 17,
+					"visibility": "hidden",
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "SVG Image"
+				},
+				"R1": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"visibility": "hidden",
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"multiline": "no",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Rate": {
+					"type": "input",
+					"top": 289,
+					"left": 279,
+					"width": 171,
+					"height": 17,
+					"visibility": "hidden",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"multiline": "no",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Start": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"visibility": "hidden",
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Count": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"visibility": "hidden",
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"R2": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"visibility": "hidden",
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"multiline": "no",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"DOM": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"visibility": "hidden",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"PNG": {
+					"type": "radio",
+					"top": 282,
+					"left": 20,
+					"width": 138,
+					"height": 30,
+					"text": "PNG",
+					"radioGroup": "グループ1",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"SVG": {
+					"type": "radio",
+					"top": 282,
+					"left": 165,
+					"width": 138,
+					"height": 30,
+					"text": "SVG",
+					"radioGroup": "グループ1",
+					"events": [
+						"onClick"
+					]
+				},
+				"R3": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 0,
+					"height": 0,
+					"visibility": "hidden",
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"multiline": "no",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"P1": {
+					"type": "button",
+					"top": 15,
+					"left": 497,
+					"width": 215,
+					"height": 56,
+					"display": false,
+					"method": "ObjectMethods/P1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"P2": {
+					"type": "button",
+					"top": 71,
+					"left": 497,
+					"width": 215,
+					"height": 56,
+					"display": false,
+					"method": "ObjectMethods/P2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"P3": {
+					"type": "button",
+					"top": 127,
+					"left": 497,
+					"width": 215,
+					"height": 56,
+					"display": false,
+					"method": "ObjectMethods/P3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"L4b": {
+					"type": "rectangle",
+					"top": 290,
+					"left": 572,
+					"width": 140,
+					"height": 30,
+					"visibility": "hidden",
+					"fill": "#008080",
+					"stroke": "transparent"
+				},
+				"L4a": {
+					"type": "text",
+					"top": 297,
+					"left": 572,
+					"width": 140,
+					"height": 17,
+					"visibility": "hidden",
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "DOM Tree"
+				},
+				"L1b": {
+					"type": "rectangle",
+					"top": 188,
+					"left": 572,
+					"width": 140,
+					"height": 30,
+					"visibility": "hidden",
+					"fill": "#000080",
+					"stroke": "transparent"
+				},
+				"L1a": {
+					"type": "text",
+					"top": 195,
+					"left": 572,
+					"width": 140,
+					"height": 17,
+					"visibility": "hidden",
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Bitmap"
+				},
+				"L3b": {
+					"type": "rectangle",
+					"top": 256,
+					"left": 572,
+					"width": 140,
+					"height": 30,
+					"visibility": "hidden",
+					"fill": "#800000",
+					"stroke": "transparent"
+				},
+				"L3a": {
+					"type": "text",
+					"top": 263,
+					"left": 572,
+					"width": 140,
+					"height": 17,
+					"visibility": "hidden",
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Rendering tree"
+				}
+			},
+			"entryOrder": [
+				"グループ1",
+				"PNG",
+				"SVG"
+			]
+		},
+		{
+			"objects": {
+				"Image1": {
+					"type": "input",
+					"top": 20,
+					"left": 20,
+					"width": 430,
+					"height": 250,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Image1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 25,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#076000",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "READ PICTURE FILE"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 45,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#666666",
+					"textAlign": "center",
+					"fontStyle": "italic",
+					"text": "(rendering tree)\r"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 139,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"textDecoration": "underline",
+					"text": "Own XML data source"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 159,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"fontStyle": "italic",
+					"text": "(embedded DOM tree)"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 82,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"textDecoration": "underline",
+					"text": "Get XML data source"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 102,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"fontStyle": "italic",
+					"text": "(detached DOM tree)"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Image2": {
+					"type": "input",
+					"top": 20,
+					"left": 20,
+					"width": 430,
+					"height": 250,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Image2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 82,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#9C009C",
+					"textAlign": "center",
+					"textDecoration": "underline",
+					"text": "Get XML data source"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 102,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#666666",
+					"textAlign": "center",
+					"fontStyle": "italic",
+					"text": "(detached DOM tree)"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 139,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"textDecoration": "underline",
+					"text": "Own XML data source"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 159,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"fontStyle": "italic",
+					"text": "(embedded DOM tree)"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 25,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "READ PICTURE FILE"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 45,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"fontStyle": "italic",
+					"text": "(rendering tree)\r"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Image3": {
+					"type": "input",
+					"top": 20,
+					"left": 20,
+					"width": 430,
+					"height": 250,
+					"dataSourceTypeHint": "picture",
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Image3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"top": 139,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#9C009C",
+					"textAlign": "center",
+					"textDecoration": "underline",
+					"text": "Own XML data source"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 159,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#666666",
+					"textAlign": "center",
+					"fontStyle": "italic",
+					"text": "(embedded DOM tree)"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 82,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"textDecoration": "underline",
+					"text": "Get XML data source"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 102,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"fontStyle": "italic",
+					"text": "(detached DOM tree)"
+				},
+				"Text16": {
+					"type": "text",
+					"top": 25,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "READ PICTURE FILE"
+				},
+				"Text17": {
+					"type": "text",
+					"top": 45,
+					"left": 497,
+					"width": 215,
+					"height": 17,
+					"stroke": "#AAAAAA",
+					"textAlign": "center",
+					"fontStyle": "italic",
+					"text": "(rendering tree)\r"
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"グループ1": [
+				"PNG",
+				"SVG"
+			]
+		}
+	}
+}

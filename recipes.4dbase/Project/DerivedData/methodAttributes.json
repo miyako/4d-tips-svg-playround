@@ -1,0 +1,593 @@
+{
+	"methods": {
+		"GROUP_UPDATE_ONE": {
+			"timeStamp": "2022-09-03T00:24:55.019Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_SET": {
+			"timeStamp": "2022-09-03T00:24:54.989Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_Get_imageData": {
+			"timeStamp": "2022-09-03T00:24:55.001Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Loading_ON_UNLOAD": {
+			"timeStamp": "2022-09-03T00:24:55.023Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_OBJECT_CREATE": {
+			"timeStamp": "2022-09-03T00:24:55.000Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Editor_SET_ZOOM": {
+			"timeStamp": "2022-09-03T00:24:55.000Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"GROUP_UPDATE": {
+			"timeStamp": "2022-09-03T00:24:55.017Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_GROW_REVERSE": {
+			"timeStamp": "2022-09-03T00:24:55.008Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_UPDATE": {
+			"timeStamp": "2022-09-03T00:24:55.005Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_APPEND": {
+			"timeStamp": "2022-09-03T00:24:54.996Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"LINK_Put": {
+			"timeStamp": "2022-09-03T00:24:55.013Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_LINK_DELETE": {
+			"timeStamp": "2022-09-03T00:24:55.004Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Editor_GROUP_CREATE": {
+			"timeStamp": "2022-09-03T00:24:55.003Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Editor_Is_debug": {
+			"timeStamp": "2022-09-03T00:24:55.005Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"DOM_ERROR": {
+			"timeStamp": "2022-09-03T00:24:55.021Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"LINK_UPDATE_ONE": {
+			"timeStamp": "2022-09-03T00:24:55.014Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_UPDATE_ID": {
+			"timeStamp": "2022-09-03T00:24:54.998Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_Start": {
+			"timeStamp": "2022-09-03T00:24:54.988Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"editor_TOOL_REDO": {
+			"timeStamp": "2022-09-03T00:24:55.002Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Editor_ON_BLUR": {
+			"timeStamp": "2022-09-03T00:24:55.021Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_Resize": {
+			"timeStamp": "2022-09-03T00:24:54.992Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"LINK_CREATE": {
+			"timeStamp": "2022-09-03T00:24:55.012Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_GROW_Get": {
+			"timeStamp": "2022-09-03T00:24:55.008Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"DOM_ELEMENT_REFRESH_ID": {
+			"timeStamp": "2022-09-03T00:24:55.022Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_Move": {
+			"timeStamp": "2022-09-03T00:24:54.993Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_DELETE": {
+			"timeStamp": "2022-09-03T00:24:54.995Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"LINK_Get": {
+			"timeStamp": "2022-09-03T00:24:55.012Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"GROUP_Put": {
+			"timeStamp": "2022-09-03T00:24:55.018Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"GROUP_exist": {
+			"timeStamp": "2022-09-03T00:24:55.019Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"HISTORY_FORWARD": {
+			"timeStamp": "2022-09-03T00:24:55.016Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"getClass": {
+			"timeStamp": "2022-09-03T00:24:55.023Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"LINK_Objects_exist": {
+			"timeStamp": "2022-09-03T00:24:55.012Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"LINK_UPDATE": {
+			"timeStamp": "2022-09-03T00:24:55.014Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_Objects": {
+			"timeStamp": "2022-09-03T00:24:54.993Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_GET_SELECTED_OBJECTS": {
+			"timeStamp": "2022-09-03T00:24:55.003Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Editor_SELECT_DRAW": {
+			"timeStamp": "2022-09-03T00:24:54.988Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Loading_ON_LOAD": {
+			"timeStamp": "2022-09-03T00:24:55.022Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_GROW_CLEAR": {
+			"timeStamp": "2022-09-03T00:24:55.007Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"GROUP_CREATE": {
+			"timeStamp": "2022-09-03T00:24:55.018Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"HISTORY_CLEAR": {
+			"timeStamp": "2022-09-03T00:24:55.015Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_ON_LOAD": {
+			"timeStamp": "2022-09-03T00:24:55.020Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"editor_TOOL_SELECT_ALL": {
+			"timeStamp": "2022-09-03T00:24:55.001Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"OBJECT_COMPUTE_SIZE": {
+			"timeStamp": "2022-09-03T00:24:55.010Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_Object": {
+			"timeStamp": "2022-09-03T00:24:54.996Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_ON_FOCUS": {
+			"timeStamp": "2022-09-03T00:24:55.020Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"HISTORY_RESTORE": {
+			"timeStamp": "2022-09-03T00:24:55.016Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"editor_TOOL_UNDO": {
+			"timeStamp": "2022-09-03T00:24:55.001Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Editor_SELECT_Add": {
+			"timeStamp": "2022-09-03T00:24:54.990Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_Clear": {
+			"timeStamp": "2022-09-03T00:24:54.990Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_Find": {
+			"timeStamp": "2022-09-03T00:24:54.987Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"SVG_TEXTAREA_SET_TEXT": {
+			"timeStamp": "2022-09-03T00:24:54.986Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"GROUP_GET_SIZE": {
+			"timeStamp": "2022-09-03T00:24:55.020Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"HISTORY_UPDATE_SELECTS": {
+			"timeStamp": "2022-09-03T00:24:55.017Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SET_OFFSET": {
+			"timeStamp": "2022-09-03T00:24:55.007Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SET_PASTE_X": {
+			"timeStamp": "2022-09-03T00:24:55.006Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_Get_offset_x": {
+			"timeStamp": "2022-09-03T00:24:55.007Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"GROUP_Delete": {
+			"timeStamp": "2022-09-03T00:24:55.019Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"LINK_SIDES": {
+			"timeStamp": "2022-09-03T00:24:55.014Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_New": {
+			"timeStamp": "2022-09-03T00:24:55.009Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_Get_offset_y": {
+			"timeStamp": "2022-09-03T00:24:55.007Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"editor_TOOL_DELETE": {
+			"timeStamp": "2022-09-03T00:24:55.002Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"HISTORY_Is_new_selection": {
+			"timeStamp": "2022-09-03T00:24:55.017Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"HISTORY_APPEND": {
+			"timeStamp": "2022-09-03T00:24:55.015Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_INIT": {
+			"timeStamp": "2022-09-03T00:24:54.999Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Editor_SET_PASTE_Y": {
+			"timeStamp": "2022-09-03T00:24:55.006Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"SELECT_Move": {
+			"timeStamp": "2022-09-03T00:24:55.009Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SET_MENU": {
+			"timeStamp": "2022-09-03T00:24:55.008Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_Get_clicked_object": {
+			"timeStamp": "2022-09-03T00:24:55.003Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Editor_SELECT_Handle": {
+			"timeStamp": "2022-09-03T00:24:54.991Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_Get": {
+			"timeStamp": "2022-09-03T00:24:54.989Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_ON_UNLOAD": {
+			"timeStamp": "2022-09-03T00:24:55.021Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_Is_object": {
+			"timeStamp": "2022-09-03T00:24:54.994Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SET_PASTE_Z": {
+			"timeStamp": "2022-09-03T00:24:55.006Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_DISPLAY_HANDLES": {
+			"timeStamp": "2022-09-03T00:24:54.997Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT": {
+			"timeStamp": "2022-09-03T00:24:54.997Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_ALL": {
+			"timeStamp": "2022-09-03T00:24:54.995Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_RESIZE": {
+			"timeStamp": "2022-09-03T00:24:54.999Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Editor_Get_step_y": {
+			"timeStamp": "2022-09-03T00:24:55.006Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"OBJECT_Put": {
+			"timeStamp": "2022-09-03T00:24:55.011Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_LINK_CREATE": {
+			"timeStamp": "2022-09-03T00:24:55.002Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Editor_GROUP_DELETE": {
+			"timeStamp": "2022-09-03T00:24:55.004Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"Editor_SELECT_GET_LIST": {
+			"timeStamp": "2022-09-03T00:24:54.994Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_Get_image": {
+			"timeStamp": "2022-09-03T00:24:55.005Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"OBJECT_CREATE": {
+			"timeStamp": "2022-09-03T00:24:55.010Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_Get_step_x": {
+			"timeStamp": "2022-09-03T00:24:55.005Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"HISTORY_REWIND": {
+			"timeStamp": "2022-09-03T00:24:55.016Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Loading_ON_TIMER": {
+			"timeStamp": "2022-09-03T00:24:55.022Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_ON_CLICK": {
+			"timeStamp": "2022-09-03T00:24:55.021Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_Group": {
+			"timeStamp": "2022-09-03T00:24:54.998Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SET_Direct2D": {
+			"timeStamp": "2022-09-03T00:24:55.009Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"SELECT_Resize": {
+			"timeStamp": "2022-09-03T00:24:55.010Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"forms": {
+			"timeStamp": "2022-09-03T00:24:55.023Z"
+		},
+		"LINK_Delete": {
+			"timeStamp": "2022-09-03T00:24:55.015Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_SELECT_End": {
+			"timeStamp": "2022-09-03T00:24:54.989Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_ON_TIMER": {
+			"timeStamp": "2022-09-03T00:24:55.021Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"Editor_Get_data": {
+			"timeStamp": "2022-09-03T00:24:55.001Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		}
+	}
+}

@@ -1,0 +1,644 @@
+{
+	"Sources/Methods/SVG_TEXTAREA_SET_TEXT.4dm": {
+		"left": 316,
+		"top": 175,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Methods/Editor_SELECT_DELETE.4dm": {
+		"left": 327,
+		"top": 103,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Methods/Editor_SELECT_UPDATE_ID.4dm": {
+		"left": 457,
+		"top": 143,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Methods/editor_TOOL_DELETE.4dm": {
+		"left": 457,
+		"top": 143,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Methods/Editor_LINK_CREATE.4dm": {
+		"left": 282,
+		"top": 139,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Methods/Editor_LINK_DELETE.4dm": {
+		"left": 231,
+		"top": 136,
+		"width": 824,
+		"height": 350
+	},
+	"Sources/Methods/LINK_CREATE.4dm": {
+		"left": 282,
+		"top": 139,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Methods/LINK_Objects_exist.4dm": {
+		"left": 370,
+		"top": 103,
+		"width": 759,
+		"height": 722
+	},
+	"Sources/Methods/LINK_Delete.4dm": {
+		"left": 199,
+		"top": 45,
+		"width": 759,
+		"height": 722
+	},
+	"Sources/Methods/Editor_ON_LOAD.4dm": {
+		"left": 137,
+		"top": 103,
+		"width": 1042,
+		"height": 659
+	},
+	"Sources/Methods/DOM_ELEMENT_REFRESH_ID.4dm": {
+		"left": 137,
+		"top": 103,
+		"width": 1042,
+		"height": 659
+	},
+	"Sources/Methods/Loading_ON_LOAD.4dm": {
+		"left": 336,
+		"top": 147,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Methods/Loading_ON_TIMER.4dm": {
+		"left": 283,
+		"top": 170,
+		"width": 746,
+		"height": 554
+	},
+	"Sources/Methods/getClass.4dm": {
+		"left": 35,
+		"top": 158,
+		"width": 1479,
+		"height": 632
+	},
+	"Sources/Methods/forms.4dm": {
+		"left": 212,
+		"top": 45,
+		"width": 971,
+		"height": 713
+	},
+	"Sources/Forms/DPI/ObjectMethods/Button0.4dm": {
+		"left": 88,
+		"top": 500,
+		"width": 977,
+		"height": 753
+	},
+	"Sources/Forms/convert/ObjectMethods/Image.4dm": {
+		"left": 219,
+		"top": 248,
+		"width": 977,
+		"height": 753
+	},
+	"Sources/Forms/convert/ObjectMethods/Codec.4dm": {
+		"left": 219,
+		"top": 248,
+		"width": 977,
+		"height": 753
+	},
+	"Sources/Forms/viewport-fill/ObjectMethods/Image.4dm": {
+		"left": 139,
+		"top": 134,
+		"width": 995,
+		"height": 503
+	},
+	"Sources/Forms/viewport-fill/ObjectMethods/Button0.4dm": {
+		"left": 139,
+		"top": 134,
+		"width": 995,
+		"height": 503
+	},
+	"Sources/Forms/viewport-fill/ObjectMethods/Button1.4dm": {
+		"left": 139,
+		"top": 134,
+		"width": 995,
+		"height": 503
+	},
+	"Sources/Forms/translate/ObjectMethods/Image.4dm": {
+		"left": 280,
+		"top": 103,
+		"width": 823,
+		"height": 665
+	},
+	"Sources/Forms/translate/ObjectMethods/Button3.4dm": {
+		"left": 405,
+		"top": 168,
+		"width": 803,
+		"height": 350
+	},
+	"Sources/Forms/translate/ObjectMethods/Button4.4dm": {
+		"left": 391,
+		"top": 103,
+		"width": 823,
+		"height": 665
+	},
+	"Sources/Forms/translate/ObjectMethods/Button5.4dm": {
+		"left": 230,
+		"top": 104,
+		"width": 823,
+		"height": 665
+	},
+	"Sources/Forms/translate/ObjectMethods/Button1.4dm": {
+		"left": 643,
+		"top": 158,
+		"width": 823,
+		"height": 656
+	},
+	"Sources/Forms/translate/ObjectMethods/Button2.4dm": {
+		"left": 230,
+		"top": 104,
+		"width": 823,
+		"height": 665
+	},
+	"Sources/Forms/translate/ObjectMethods/Button6.4dm": {
+		"left": 281,
+		"top": 103,
+		"width": 823,
+		"height": 658
+	},
+	"Sources/Forms/translate/ObjectMethods/Button10.4dm": {
+		"left": -7,
+		"top": 148,
+		"width": 823,
+		"height": 665
+	},
+	"Sources/Forms/translate/ObjectMethods/Button7.4dm": {
+		"left": 42,
+		"top": 130,
+		"width": 823,
+		"height": 665
+	},
+	"Sources/Forms/translate/ObjectMethods/Button8.4dm": {
+		"left": 42,
+		"top": 130,
+		"width": 823,
+		"height": 665
+	},
+	"Sources/Forms/translate/ObjectMethods/Button9.4dm": {
+		"left": 42,
+		"top": 103,
+		"width": 832,
+		"height": 458
+	},
+	"Sources/Forms/translate/ObjectMethods/Button11.4dm": {
+		"left": 281,
+		"top": 103,
+		"width": 823,
+		"height": 658
+	},
+	"Sources/Forms/translate/ObjectMethods/Button12.4dm": {
+		"left": 230,
+		"top": 104,
+		"width": 823,
+		"height": 665
+	},
+	"Sources/Forms/translate/ObjectMethods/Button13.4dm": {
+		"left": 405,
+		"top": 168,
+		"width": 803,
+		"height": 350
+	},
+	"Sources/Forms/translate/ObjectMethods/Button14.4dm": {
+		"left": 405,
+		"top": 168,
+		"width": 803,
+		"height": 350
+	},
+	"Sources/Forms/translate/ObjectMethods/Button15.4dm": {
+		"left": 405,
+		"top": 168,
+		"width": 803,
+		"height": 350
+	},
+	"Sources/Forms/translate/ObjectMethods/Button16.4dm": {
+		"left": 281,
+		"top": 103,
+		"width": 823,
+		"height": 658
+	},
+	"Sources/Forms/translate/ObjectMethods/Button17.4dm": {
+		"left": 281,
+		"top": 103,
+		"width": 823,
+		"height": 658
+	},
+	"Sources/Forms/translate/ObjectMethods/Button19.4dm": {
+		"left": 405,
+		"top": 168,
+		"width": 803,
+		"height": 350
+	},
+	"Sources/Forms/translate/ObjectMethods/Button21.4dm": {
+		"left": 405,
+		"top": 168,
+		"width": 803,
+		"height": 350
+	},
+	"Sources/Forms/translate/ObjectMethods/Button22.4dm": {
+		"left": 405,
+		"top": 168,
+		"width": 803,
+		"height": 350
+	},
+	"Sources/Forms/translate/ObjectMethods/Button24.4dm": {
+		"left": 405,
+		"top": 168,
+		"width": 803,
+		"height": 350
+	},
+	"Sources/Forms/text/method.4dm": {
+		"left": 295,
+		"top": 129,
+		"width": 1077,
+		"height": 595
+	},
+	"Sources/Forms/text/ObjectMethods/Text.4dm": {
+		"left": 153,
+		"top": 247,
+		"width": 1050,
+		"height": 443
+	},
+	"Sources/Forms/textArea/ObjectMethods/Button.4dm": {
+		"left": 153,
+		"top": 247,
+		"width": 1050,
+		"height": 443
+	},
+	"Sources/Forms/textArea/ObjectMethods/Button3.4dm": {
+		"left": 153,
+		"top": 247,
+		"width": 1050,
+		"height": 443
+	},
+	"Sources/Forms/scaling/ObjectMethods/Image.4dm": {
+		"left": 13,
+		"top": 138,
+		"width": 823,
+		"height": 665
+	},
+	"Sources/Forms/scaling/ObjectMethods/Button.4dm": {
+		"left": 34,
+		"top": 103,
+		"width": 625,
+		"height": 480
+	},
+	"Sources/Forms/scaling/ObjectMethods/Button1.4dm": {
+		"left": -6,
+		"top": 409,
+		"width": 1191,
+		"height": 473
+	},
+	"Sources/Forms/scaling/ObjectMethods/Button2.4dm": {
+		"left": 344,
+		"top": 194,
+		"width": 823,
+		"height": 658
+	},
+	"Sources/Forms/scaling/ObjectMethods/Button3.4dm": {
+		"left": 116,
+		"top": 103,
+		"width": 680,
+		"height": 463
+	},
+	"Sources/Forms/scaling/ObjectMethods/Button4.4dm": {
+		"left": 292,
+		"top": 261,
+		"width": 977,
+		"height": 600
+	},
+	"Sources/Forms/scaling/ObjectMethods/Button5.4dm": {
+		"left": 150,
+		"top": 155,
+		"width": 1065,
+		"height": 508
+	},
+	"Sources/Forms/scaling/ObjectMethods/Button7.4dm": {
+		"left": 314,
+		"top": 161,
+		"width": 858,
+		"height": 513
+	},
+	"Sources/Forms/scaling/ObjectMethods/Button8.4dm": {
+		"left": 292,
+		"top": 261,
+		"width": 977,
+		"height": 600
+	},
+	"Sources/Forms/scaling/ObjectMethods/Button9.4dm": {
+		"left": 314,
+		"top": 161,
+		"width": 858,
+		"height": 513
+	},
+	"Sources/Forms/scaling/ObjectMethods/Button6.4dm": {
+		"left": 386,
+		"top": 186,
+		"width": 1085,
+		"height": 546
+	},
+	"Sources/Forms/scaling/ObjectMethods/Button11.4dm": {
+		"left": 81,
+		"top": 191,
+		"width": 1085,
+		"height": 546
+	},
+	"Sources/Forms/detached-dom/ObjectMethods/Image.4dm": {
+		"left": 156,
+		"top": 352,
+		"width": 904,
+		"height": 350
+	},
+	"Sources/Forms/detached-dom/ObjectMethods/Button1.4dm": {
+		"left": 400,
+		"top": 133,
+		"width": 823,
+		"height": 656
+	},
+	"Sources/Forms/detached-dom/ObjectMethods/Button2.4dm": {
+		"left": 230,
+		"top": 103,
+		"width": 1404,
+		"height": 787
+	},
+	"Sources/Forms/double-dom/ObjectMethods/Image.4dm": {
+		"left": 534,
+		"top": 68,
+		"width": 823,
+		"height": 656
+	},
+	"Sources/Forms/double-dom/ObjectMethods/Button.4dm": {
+		"left": 230,
+		"top": 104,
+		"width": 823,
+		"height": 665
+	},
+	"Sources/Forms/double-dom/ObjectMethods/Button1.4dm": {
+		"left": 230,
+		"top": 103,
+		"width": 823,
+		"height": 656
+	},
+	"Sources/Forms/double-dom/ObjectMethods/Button3.4dm": {
+		"left": 230,
+		"top": 103,
+		"width": 823,
+		"height": 656
+	},
+	"Sources/Forms/embedded-dom/ObjectMethods/Image.4dm": {
+		"left": 230,
+		"top": 104,
+		"width": 823,
+		"height": 665
+	},
+	"Sources/Forms/embedded-dom/ObjectMethods/Button1.4dm": {
+		"left": 439,
+		"top": 103,
+		"width": 823,
+		"height": 656
+	},
+	"Sources/Forms/embedded-dom/ObjectMethods/Button2.4dm": {
+		"left": 2,
+		"top": 174,
+		"width": 1551,
+		"height": 597
+	},
+	"Sources/Forms/embedded-dom/ObjectMethods/Button4.4dm": {
+		"left": 272,
+		"top": 150,
+		"width": 1319,
+		"height": 708
+	},
+	"Sources/Forms/no-dom/ObjectMethods/Image.4dm": {
+		"left": 156,
+		"top": 352,
+		"width": 904,
+		"height": 350
+	},
+	"Sources/Forms/no-dom/ObjectMethods/Button1.4dm": {
+		"left": 156,
+		"top": 352,
+		"width": 904,
+		"height": 350
+	},
+	"Sources/Forms/no-dom/ObjectMethods/Button2.4dm": {
+		"left": 2,
+		"top": 174,
+		"width": 1551,
+		"height": 597
+	},
+	"Sources/Forms/image/method.4dm": {
+		"left": 437,
+		"top": 103,
+		"width": 825,
+		"height": 656
+	},
+	"Sources/Forms/image/ObjectMethods/Image1.4dm": {
+		"left": 303,
+		"top": 103,
+		"width": 977,
+		"height": 656
+	},
+	"Sources/Forms/image/ObjectMethods/Image2.4dm": {
+		"left": 61,
+		"top": 275,
+		"width": 977,
+		"height": 753
+	},
+	"Sources/Forms/image/ObjectMethods/Image3.4dm": {
+		"left": -6,
+		"top": 235,
+		"width": 977,
+		"height": 753
+	},
+	"Sources/Forms/event/method.4dm": {
+		"left": 73,
+		"top": 103,
+		"width": 937,
+		"height": 656
+	},
+	"Sources/Forms/event/ObjectMethods/P1.4dm": {
+		"left": 338,
+		"top": 301,
+		"width": 977,
+		"height": 753
+	},
+	"Sources/Forms/event/ObjectMethods/P2.4dm": {
+		"left": 327,
+		"top": 103,
+		"width": 825,
+		"height": 665
+	},
+	"Sources/Forms/event/ObjectMethods/P3.4dm": {
+		"left": 338,
+		"top": 301,
+		"width": 977,
+		"height": 753
+	},
+	"Sources/Forms/event/ObjectMethods/Image1.4dm": {
+		"left": 281,
+		"top": 103,
+		"width": 977,
+		"height": 656
+	},
+	"Sources/Forms/event/ObjectMethods/Image2.4dm": {
+		"left": 338,
+		"top": 301,
+		"width": 977,
+		"height": 753
+	},
+	"Sources/Forms/logo/ObjectMethods/Image.4dm": {
+		"left": 303,
+		"top": 103,
+		"width": 977,
+		"height": 656
+	},
+	"Sources/Forms/filter/ObjectMethods/Clean.4dm": {
+		"left": 248,
+		"top": 103,
+		"width": 892,
+		"height": 530
+	},
+	"Sources/Forms/filter/ObjectMethods/Blur.4dm": {
+		"left": 248,
+		"top": 103,
+		"width": 892,
+		"height": 530
+	},
+	"Sources/Forms/editor/method.4dm": {
+		"left": 137,
+		"top": 103,
+		"width": 1042,
+		"height": 659
+	},
+	"Sources/Forms/editor-demo/method.4dm": {
+		"left": 316,
+		"top": 175,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Editor.4dm": {
+		"left": 401,
+		"top": 103,
+		"width": 752,
+		"height": 638
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Button.4dm": {
+		"left": 282,
+		"top": 139,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Button1.4dm": {
+		"left": 316,
+		"top": 175,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Button2.4dm": {
+		"left": 316,
+		"top": 175,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Button4.4dm": {
+		"left": 362,
+		"top": 103,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Tool_Delete.4dm": {
+		"left": 457,
+		"top": 143,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Tool_Undo.4dm": {
+		"left": 316,
+		"top": 175,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Button5.4dm": {
+		"left": 341,
+		"top": 277,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Button6.4dm": {
+		"left": 58,
+		"top": 133,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Button7.4dm": {
+		"left": 598,
+		"top": 103,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Button8.4dm": {
+		"left": 294,
+		"top": 331,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Button9.4dm": {
+		"left": 457,
+		"top": 143,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Group.4dm": {
+		"left": 282,
+		"top": 139,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/editor-demo/ObjectMethods/Ungroup.4dm": {
+		"left": 282,
+		"top": 139,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/animation/method.4dm": {
+		"left": 308,
+		"top": 117,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/animation/ObjectMethods/Invisible Button.4dm": {
+		"left": 417,
+		"top": 148,
+		"width": 823,
+		"height": 642
+	},
+	"Sources/Forms/animation/ObjectMethods/Loading.4dm": {
+		"left": 107,
+		"top": 103,
+		"width": 1025,
+		"height": 555
+	},
+	"Sources/Forms/loading/method.4dm": {
+		"left": 311,
+		"top": 146,
+		"width": 814,
+		"height": 449
+	},
+	"Sources/Forms/map/ObjectMethods/Image.4dm": {
+		"left": 2,
+		"top": 174,
+		"width": 1551,
+		"height": 597
+	}
+}

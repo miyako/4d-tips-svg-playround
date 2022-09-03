@@ -1,0 +1,88 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "animation",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onUnload",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Invisible Button": {
+					"type": "button",
+					"top": 1,
+					"left": 0,
+					"width": 240,
+					"height": 240,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Invisible Button",
+					"display": false,
+					"method": "ObjectMethods/Invisible Button.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Loading": {
+					"type": "subform",
+					"top": 20,
+					"left": 20,
+					"width": 200,
+					"height": 200,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "number",
+					"detailForm": "loading",
+					"hideFocusRing": true,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "sunken",
+					"method": "ObjectMethods/Loading.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"Loading"
+				]
+			},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

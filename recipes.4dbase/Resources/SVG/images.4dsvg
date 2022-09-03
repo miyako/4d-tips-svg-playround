@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!--
+   ### example of using a template document to produce dynamic SVG ###
+   $1: the path (text)
+   $r: the rotation (real)
+-->
+
+<!--4deval $path:="file://"+Convert path system to POSIX:C1106($1;*)-->
+<!--4deval $rotation:=String:C10($2;"&xml")-->
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg" width="430" height="430">
+
+<g transform="translate(100,100)">
+<image
+     transform="rotate(<!--4dhtml $rotation-->,0,0)"
+     width="200"
+     height="200"
+     x="-100"
+     y="-100"
+     id="image"
+     xlink:href="<!--4dhtml $path-->" />
+</g>
+<g
+     text-anchor="start"
+     font-size="13" 
+     font-style="normal"
+     font-weight="normal"
+     text-decoration="none">
+<text x="10" y="215" id="text"><!--4dhtml $path--></text>
+</g>
+
+
+</svg>

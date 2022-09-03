@@ -1,0 +1,121 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "large",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onUnload",
+		"onResize"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Image": {
+					"type": "input",
+					"top": 20,
+					"left": 20,
+					"width": 222,
+					"height": 209,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "visible",
+					"dragging": "none",
+					"method": "ObjectMethods/Image.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"Width": {
+					"type": "input",
+					"top": 20,
+					"left": 334,
+					"width": 128,
+					"height": 17,
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Height": {
+					"type": "input",
+					"top": 60,
+					"left": 334,
+					"width": 128,
+					"height": 17,
+					"dataSourceTypeHint": "number",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 140,
+					"left": 277,
+					"width": 185,
+					"height": 22,
+					"text": "SVG GET ATTRIBUTE",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 100,
+					"left": 277,
+					"width": 185,
+					"height": 22,
+					"text": "PICTURE PROPERTIES",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 20,
+					"left": 253,
+					"width": 61,
+					"height": 17,
+					"text": "Width:"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 60,
+					"left": 253,
+					"width": 61,
+					"height": 17,
+					"text": "Height:"
+				}
+			}
+		}
+	]
+}

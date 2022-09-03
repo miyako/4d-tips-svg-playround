@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="wakanda"
+   width="430"
+   height="430"
+   version="1.0">
+   
+  <image
+     width="430"
+     height="430"
+     x="0.5"
+     y="0.5"
+     xlink:href="wakanda-mascot-walking.png" />
+
+<g id="left-eye" transform="rotate(0,201.5,156)">
+<circle 
+	cx="201.5" 
+	cy="156" 
+	r="10.5" 
+	stroke="white"
+	stroke-width="0" 
+	fill="white"
+	fill-opacity="1" 
+	id="left-eye-white" 
+	/>
+<g id="left-eye-ball" transform="rotate(0,203,153.5)">
+<circle 
+	cx="203" 
+	cy="153.5" 
+	r="7" 
+	stroke="black"
+	stroke-width="0" 
+	fill="black"
+	fill-opacity="1" 
+	id="left-eye-black" 
+	/>
+<circle 
+	cx="199" 
+	cy="149.5" 
+	r="2.5" 
+	stroke="white"
+	stroke-width="0" 
+	fill="white"
+	fill-opacity="0.8" 
+	id="left-eye-spot" 
+	/> 
+</g>	
+</g>	
+
+<g id="right-eye" transform="rotate(0,225.5,160)">
+<circle 
+	cx="225.5" 
+	cy="160" 
+	r="10.5" 
+	stroke="white"
+	stroke-width="0" 
+	fill="white" 
+	fill-opacity="1" 	
+	id="right-eye-white" 
+	/>
+<g id="right-eye-ball" transform="rotate(0,227.5,158)">	
+<circle 
+	cx="227.5" 
+	cy="158" 
+	r="7" 
+	stroke="black"
+	stroke-width="0" 
+	fill="black"
+	fill-opacity="1" 
+	id="left-eye-black" 
+	/> 
+<circle 
+	cx="223" 
+	cy="153.5" 
+	r="2.5" 
+	stroke="white"
+	stroke-width="0" 
+	fill="white"
+	fill-opacity="0.8" 
+	id="left-eye-spot" 
+	/> 	
+</g>	
+</g>		  
+</svg>

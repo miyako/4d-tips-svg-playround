@@ -1,0 +1,350 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "editor",
+	"windowMinWidth": 340,
+	"windowMinHeight": 380,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onUnload",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Editor": {
+					"type": "subform",
+					"top": 180,
+					"left": 20,
+					"width": 755,
+					"height": 420,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "text",
+					"detailForm": "Editor",
+					"doubleClickInRowAction": "editSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "dotted",
+					"method": "ObjectMethods/Editor.4dm",
+					"events": [
+						"onLosingFocus",
+						"onGettingFocus"
+					]
+				},
+				"Zoom": {
+					"type": "dropdown",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 20,
+					"choiceList": [
+						"25%",
+						"50%",
+						"75%",
+						"100%",
+						"125%",
+						"150%",
+						"200%",
+						"250%",
+						"500%",
+						"750%"
+					],
+					"class": "default",
+					"textAlign": "center",
+					"method": "ObjectMethods/Zoom.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 10,
+					"left": 120,
+					"width": 110,
+					"height": 22,
+					"text": "BOY",
+					"class": "default",
+					"stroke": "#336AC2",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 8,
+					"left": 480,
+					"width": 110,
+					"height": 22,
+					"visibility": "hidden",
+					"text": "Browse XML",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 35,
+					"left": 480,
+					"width": 110,
+					"height": 22,
+					"visibility": "hidden",
+					"text": "Browse SVG",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 10,
+					"left": 240,
+					"width": 110,
+					"height": 22,
+					"text": "GIRL",
+					"class": "default",
+					"stroke": "#FF7F7F",
+					"focusable": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Tool_Delete": {
+					"type": "button",
+					"top": 35,
+					"left": 120,
+					"width": 110,
+					"height": 22,
+					"shortcutKey": "[Backspace]",
+					"text": "Delete",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Tool_Delete.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Tool_Undo": {
+					"type": "button",
+					"top": 35,
+					"left": 240,
+					"width": 110,
+					"height": 22,
+					"shortcutKey": "z",
+					"shortcutAccel": true,
+					"text": "Undo",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Tool_Undo.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Tool_Redo": {
+					"type": "button",
+					"top": 60,
+					"left": 240,
+					"width": 110,
+					"height": 22,
+					"shortcutKey": "z",
+					"shortcutAccel": true,
+					"shortcutShift": true,
+					"text": "Redo",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Tool_Redo.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Tool_SelectAll": {
+					"type": "button",
+					"top": 60,
+					"left": 120,
+					"width": 110,
+					"height": 22,
+					"shortcutKey": "a",
+					"shortcutAccel": true,
+					"text": "Select all",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Tool_SelectAll.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 10,
+					"left": 600,
+					"width": 110,
+					"height": 22,
+					"visibility": "hidden",
+					"text": "Friends",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"ClickedObject": {
+					"type": "input",
+					"top": 88,
+					"left": 360,
+					"width": 110,
+					"height": 16,
+					"dataSource": "ClickedObject",
+					"class": "default",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Button6": {
+					"type": "button",
+					"top": 35,
+					"left": 600,
+					"width": 110,
+					"height": 22,
+					"visibility": "hidden",
+					"text": "Enemies",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 60,
+					"left": 600,
+					"width": 110,
+					"height": 22,
+					"visibility": "hidden",
+					"text": "Family",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button8": {
+					"type": "button",
+					"top": 85,
+					"left": 600,
+					"width": 110,
+					"height": 22,
+					"visibility": "hidden",
+					"text": "Colleagues",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Event": {
+					"type": "input",
+					"top": 63,
+					"left": 360,
+					"width": 110,
+					"height": 16,
+					"dataSource": "Event",
+					"class": "default",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Button9": {
+					"type": "button",
+					"top": 110,
+					"left": 600,
+					"width": 110,
+					"height": 22,
+					"visibility": "hidden",
+					"text": "No relations ",
+					"class": "default",
+					"focusable": false,
+					"method": "ObjectMethods/Button9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Group": {
+					"type": "button",
+					"top": 10,
+					"left": 360,
+					"width": 110,
+					"height": 22,
+					"text": "Group",
+					"class": "default",
+					"stroke": "#009B9C",
+					"focusable": false,
+					"method": "ObjectMethods/Group.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Ungroup": {
+					"type": "button",
+					"top": 35,
+					"left": 360,
+					"width": 110,
+					"height": 22,
+					"text": "Ungroup",
+					"class": "default",
+					"stroke": "#009B9C",
+					"focusable": false,
+					"method": "ObjectMethods/Ungroup.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "ビュー 1",
+		"defaultView": "ビュー 1",
+		"views": {
+			"ビュー 1": {},
+			"ビュー 2": {},
+			"ビュー 3": {},
+			"ビュー 4": {},
+			"ビュー 5": {},
+			"ビュー 6": {},
+			"ビュー 7": {},
+			"ビュー 8": {},
+			"ビュー 9": {}
+		}
+	}
+}

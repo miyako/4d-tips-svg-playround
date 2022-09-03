@@ -1,0 +1,310 @@
+{
+	"destination": "detailScreen",
+	"windowTitle": "scaling",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onUnload",
+		"onResize"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle4": {
+					"type": "rectangle",
+					"top": 250,
+					"left": 0,
+					"width": 397,
+					"height": 40,
+					"fill": "#FFE0E0",
+					"stroke": "transparent"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 290,
+					"left": 0,
+					"width": 397,
+					"height": 40,
+					"fill": "#E2FFDF",
+					"stroke": "transparent"
+				},
+				"Rectangle6": {
+					"type": "rectangle",
+					"top": 330,
+					"left": 0,
+					"width": 397,
+					"height": 40,
+					"fill": "#DFE4FF",
+					"stroke": "transparent"
+				},
+				"Rectangle7": {
+					"type": "rectangle",
+					"top": 370,
+					"left": 0,
+					"width": 397,
+					"height": 40,
+					"fill": "#FFFFDF",
+					"stroke": "transparent"
+				},
+				"Scale": {
+					"type": "input",
+					"left": 0,
+					"top": 0,
+					"width": 75,
+					"height": 17,
+					"dataSourceTypeHint": "number",
+					"enterable": false,
+					"focusable": false,
+					"visibility": "hidden",
+					"borderStyle": "none",
+					"fill": "transparent"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Image": {
+					"type": "input",
+					"top": 20,
+					"left": 20,
+					"width": 222,
+					"height": 209,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "visible",
+					"dragging": "none",
+					"method": "ObjectMethods/Image.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 259,
+					"left": 100,
+					"width": 90,
+					"height": 22,
+					"sizingY": "move",
+					"text": "0.5",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 259,
+					"left": 200,
+					"width": 90,
+					"height": 22,
+					"sizingY": "move",
+					"text": "reset",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 259,
+					"left": 300,
+					"width": 90,
+					"height": 22,
+					"sizingY": "move",
+					"text": "2",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 299,
+					"left": 100,
+					"width": 90,
+					"height": 22,
+					"sizingY": "move",
+					"text": "0.5",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 299,
+					"left": 200,
+					"width": 90,
+					"height": 22,
+					"sizingY": "move",
+					"text": "reset",
+					"focusable": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 299,
+					"left": 300,
+					"width": 90,
+					"height": 22,
+					"sizingY": "move",
+					"text": "2",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 379,
+					"left": 100,
+					"width": 90,
+					"height": 22,
+					"sizingY": "move",
+					"text": "0.5",
+					"focusable": false,
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button8": {
+					"type": "button",
+					"top": 379,
+					"left": 200,
+					"width": 90,
+					"height": 22,
+					"sizingY": "move",
+					"text": "reset",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button9": {
+					"type": "button",
+					"top": 379,
+					"left": 300,
+					"width": 90,
+					"height": 22,
+					"sizingY": "move",
+					"text": "2",
+					"focusable": false,
+					"method": "ObjectMethods/Button9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 299,
+					"left": 6,
+					"width": 65,
+					"height": 17,
+					"fontWeight": "bold",
+					"text": "Operator:"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 379,
+					"left": 6,
+					"width": 65,
+					"height": 17,
+					"fontWeight": "bold",
+					"text": "View Box:"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 259,
+					"left": 6,
+					"width": 65,
+					"height": 17,
+					"fontWeight": "bold",
+					"text": "Scale:"
+				},
+				"Button6": {
+					"type": "button",
+					"top": 339,
+					"left": 100,
+					"width": 90,
+					"height": 22,
+					"sizingY": "move",
+					"text": "0.5",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button10": {
+					"type": "button",
+					"top": 339,
+					"left": 200,
+					"width": 90,
+					"height": 22,
+					"sizingY": "move",
+					"text": "reset",
+					"focusable": false,
+					"method": "ObjectMethods/Button10.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button11": {
+					"type": "button",
+					"top": 339,
+					"left": 300,
+					"width": 90,
+					"height": 22,
+					"sizingY": "move",
+					"text": "2",
+					"focusable": false,
+					"method": "ObjectMethods/Button11.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 339,
+					"left": 6,
+					"width": 85,
+					"height": 17,
+					"fontWeight": "bold",
+					"text": "Transform:"
+				}
+			}
+		}
+	],
+	"geometryStamp": 5,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

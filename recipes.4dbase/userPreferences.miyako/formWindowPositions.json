@@ -1,0 +1,122 @@
+{
+	"Sources/Forms/animation/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/convert/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/scaling/form.4DForm": {
+		"left": 137,
+		"top": 298,
+		"width": 1108,
+		"height": 583
+	},
+	"Sources/Forms/viewport-fill/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/translate/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/textArea/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/text/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/no-dom/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/map/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/logo/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/loading/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/large/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/image/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/filter/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/event/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/embedded-dom/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/editor-demo/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/editor/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/DPI/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	},
+	"Sources/Forms/double-dom/form.4DForm": {
+		"left": 137,
+		"top": 270,
+		"width": 1108,
+		"height": 611
+	}
+}

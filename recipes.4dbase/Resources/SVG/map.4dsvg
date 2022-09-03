@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--parameters-->
+<!--4deval $path:=Get 4D folder:C485(Current resources folder:K5:16)+"counties.json"-->
+<!--4deval $json:=Document to text:C1236($path;"utf-8")-->
+<!--4deval $o:=JSON Parse:C1218($json)-->
+<!--4deval $width:=OB Get:C1224($o;"width";Is longint:K8:6)-->
+<!--4deval $height:=OB Get:C1224($o;"height";Is longint:K8:6)-->
+<!--4deval ARRAY OBJECT:C1221($counties;0)-->
+<!--4deval OB GET ARRAY:C1229($o;"counties";$counties)-->
+<!--template-->
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	id="svg"
+	width="<!--4dtext $width-->"
+	height="<!--4dtext $height-->">
+	<style>
+		.c0 {fill:rgb(247,251,255);}
+		.c1 {fill:rgb(222,235,247);}
+		.c2 {fill:rgb(198,219,239);}
+		.c3 {fill:rgb(158,202,225);}
+		.c4 {fill:rgb(107,174,214);}
+		.c5 {fill:rgb(66,146,198);}
+		.c6 {fill:rgb(33,113,181);}
+		.c7 {fill:rgb(8,81,156);}
+		.c8 {fill:rgb(8,48,107);}
+	</style>
+	<g class="counties">
+	<!--4dloop $counties-->
+	<!--4deval $county:=$counties{$counties}-->
+	<!--4deval $d:=OB Get:C1224($county;"d";Is text:K8:3)-->
+	<!--4deval $id:=OB Get:C1224($county;"id";Is text:K8:3)-->
+		<path d="<!--4deval $d-->" class="<!--4deval getClass($id)-->"/>
+	<!--4dendloop-->
+	</g>
+</svg>

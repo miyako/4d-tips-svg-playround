@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!--
+   ### example of using a template document to produce dynamic SVG ###
+   $1: the text (text)
+   $2: parameters (object)
+-->
+
+<!--4deval $width:=OB Get:C1224($2;"width";Is longint:K8:6)-->
+<!--4deval $height:=OB Get:C1224($2;"height";Is longint:K8:6)-->
+
+<svg
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+				id="svg"
+				width="<!--4dtext $width-->"
+				height="<!--4dtext $height-->"
+				viewport-fill="#0000FF"
+				viewport-fill-opacity="0.2"
+				version="1.1">
+  
+<line
+x1="0"
+y1="<!--4deval ($height/2)-->"
+x2="<!--4deval $width-->"
+y2="<!--4deval ($height/2)-->"
+stroke="#FF0000"
+stroke-width="1"
+stroke-dasharray="2,2"
+shape-rendering="crispEdges" />
+
+<line
+x1="<!--4deval ($width/2)-->"
+y1="0"
+x2="<!--4deval ($width/2)-->"
+y2="<!--4deval $height-->"
+stroke="#FF0000"
+stroke-width="1"
+stroke-dasharray="2,2"
+shape-rendering="crispEdges" />
+		
+<textArea
+				id="text"
+				text-align="center"
+				display-align="center"			 
+				font-size="24" 
+				font-style="normal"
+				font-weight="normal" 
+				text-decoration="none"
+				font-family="sans-serif"
+				x="0" 
+				y="0"
+				width="<!--4dtext $width-->"
+				height="<!--4dtext $height-->"				
+				fill="#333333"><!--4dtext $1--></textArea>
+ 
+</svg>

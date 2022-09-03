@@ -1,0 +1,287 @@
+{
+	"destination": "detailScreen",
+	"width": 688,
+	"height": 521,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onUnload"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Image": {
+					"type": "input",
+					"top": 20,
+					"left": 20,
+					"width": 80,
+					"height": 100,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/Image.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onUnload"
+					]
+				},
+				"Button0": {
+					"type": "button",
+					"top": 156,
+					"left": 620,
+					"width": 48,
+					"height": 48,
+					"shortcutKey": "0",
+					"text": "0",
+					"focusable": false,
+					"method": "ObjectMethods/Button0.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button": {
+					"type": "button",
+					"top": 156,
+					"left": 20,
+					"width": 48,
+					"height": 48,
+					"shortcutKey": " ",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 156,
+					"left": 80,
+					"width": 48,
+					"height": 48,
+					"shortcutKey": "1",
+					"text": "1",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 156,
+					"left": 140,
+					"width": 48,
+					"height": 48,
+					"shortcutKey": "2",
+					"text": "2",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 156,
+					"left": 200,
+					"width": 48,
+					"height": 48,
+					"shortcutKey": "3",
+					"text": "3",
+					"focusable": false,
+					"method": "ObjectMethods/Button3.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 156,
+					"left": 260,
+					"width": 48,
+					"height": 48,
+					"shortcutKey": "4",
+					"text": "4",
+					"focusable": false,
+					"method": "ObjectMethods/Button4.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 156,
+					"left": 320,
+					"width": 48,
+					"height": 48,
+					"shortcutKey": "5",
+					"text": "5",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 156,
+					"left": 380,
+					"width": 48,
+					"height": 48,
+					"shortcutKey": "6",
+					"text": "6",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 156,
+					"left": 440,
+					"width": 48,
+					"height": 48,
+					"shortcutKey": "7",
+					"text": "7",
+					"focusable": false,
+					"method": "ObjectMethods/Button7.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button8": {
+					"type": "button",
+					"top": 156,
+					"left": 500,
+					"width": 48,
+					"height": 48,
+					"shortcutKey": "8",
+					"text": "8",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button9": {
+					"type": "button",
+					"top": 156,
+					"left": 560,
+					"width": 48,
+					"height": 48,
+					"shortcutKey": "9",
+					"text": "9",
+					"focusable": false,
+					"method": "ObjectMethods/Button9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 15,
+					"left": 137,
+					"width": 171,
+					"height": 17,
+					"fontWeight": "bold",
+					"text": "Summary"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 41,
+					"left": 140,
+					"width": 458,
+					"height": 17,
+					"text": "SVG EXPORT TO PICTURE + Own XML data source"
+				},
+				"Source": {
+					"type": "input",
+					"top": 212,
+					"left": 20,
+					"width": 648,
+					"height": 289,
+					"enterable": false,
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 61,
+					"left": 140,
+					"width": 98,
+					"height": 17,
+					"text": "DOM Tree:"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 61,
+					"left": 252,
+					"width": 118,
+					"height": 17,
+					"stroke": "#FF005E",
+					"fontWeight": "bold",
+					"text": "Embedded"
+				},
+				"Size": {
+					"type": "input",
+					"top": 101,
+					"left": 252,
+					"width": 157,
+					"height": 17,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 101,
+					"left": 140,
+					"width": 78,
+					"height": 17,
+					"text": "Picture size:"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 81,
+					"left": 140,
+					"width": 118,
+					"height": 17,
+					"text": "DOM Reference:"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 81,
+					"left": 252,
+					"width": 118,
+					"height": 17,
+					"stroke": "#FFB107",
+					"fontWeight": "bold",
+					"text": "Embedded"
+				}
+			}
+		}
+	]
+}

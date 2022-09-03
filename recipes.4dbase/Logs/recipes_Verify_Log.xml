@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<verifylog operation="Verify" name="recipes" structure="Macintosh HD:Users:miyako:Desktop:recipes.4dbase:recipes.4DB" data="Macintosh HD:Users:miyako:Desktop:recipes.4dbase:recipes.4DD" os="Mac OS X (10.11.4)">
+<start_timer time="2016-04-26T10:59:07+02:00"/>
+<step title="メンテナンスモードでデータベースを開く">
+</step>
+<step title="ストラクチャーの内部データベースを検査">
+	<step title="セグメント 1 のビットテーブルをチェック">
+	</step>
+	<step title="セグメント 65 のビットテーブルをチェック">
+	</step>
+	<step title="インデックス定義をチェック中">
+	</step>
+	<step title="削除されたインデックス定義の連鎖リストをチェック中">
+	</step>
+	<step title="データテーブルをロード中">
+		<step title="データテーブルヘッダーをチェック中">
+		</step>
+		<step title="削除されたデータテーブルヘッダーの連鎖リストをチェック中">
+		</step>
+	</step>
+	<step title="テーブル Resources のBLOBをチェック中">
+	</step>
+	<step title="テーブル Resources の削除されたBLOBのリストをチェック中">
+	</step>
+	<step title="テーブル Resources のレコードをチェック中
+">
+		<step title="テーブル Resources の削除されたレコードのリストをチェック中">
+		</step>
+	</step>
+	<step title="テーブル Resources の削除されたレコードのリストをチェック中">
+	</step>
+	<step title="テーブル [Table#0] のBLOBをチェック中">
+	</step>
+	<step title="テーブル [Table#0] の削除されたBLOBのリストをチェック中">
+	</step>
+	<step title="テーブル [Table#0] のレコードをチェック中
+">
+	</step>
+	<step title="テーブル [Table#0] の削除されたレコードのリストをチェック中">
+	</step>
+	<step title="インデックスBツリー インデックス0 on kind (TYPE only)を検証中">
+		<step title="Bツリー インデックス0 on kind (TYPE only) のインデックスページアドレスをチェック中">
+		</step>
+		<step title="Bツリー インデックス0 on kind (TYPE only) の削除されたインデックスページのリストをチェック中">
+		</step>
+		<step title="Bツリー インデックス0 on kind (TYPE only) インデックスページをチェック中">
+		</step>
+	</step>
+	<step title="インデックスBツリー インデックス1 on stamp (stamp)を検証中">
+		<step title="Bツリー インデックス1 on stamp (stamp) のインデックスページアドレスをチェック中">
+		</step>
+		<step title="Bツリー インデックス1 on stamp (stamp) の削除されたインデックスページのリストをチェック中">
+		</step>
+		<step title="Bツリー インデックス1 on stamp (stamp) インデックスページをチェック中">
+		</step>
+	</step>
+	<step title="インデックスBツリー インデックス2 on kind , id (TYPE and ID)を検証中">
+		<step title="Bツリー インデックス2 on kind , id (TYPE and ID) のインデックスページアドレスをチェック中">
+		</step>
+		<step title="Bツリー インデックス2 on kind , id (TYPE and ID) の削除されたインデックスページのリストをチェック中">
+		</step>
+		<step title="Bツリー インデックス2 on kind , id (TYPE and ID) インデックスページをチェック中">
+		</step>
+	</step>
+</step>
+<step title="データベースメソッドを検査">
+</step>
+<step title="トリガーメソッドを検査">
+</step>
+<step title="プロジェクトメソッドを検査">
+	<step title="SVG_TEXTAREA_SET_TEXT">
+		<info>SVG_TEXTAREA_SET_TEXT : 34 lines</info>
+	</step>
+	<step title="Editor_SELECT_Find">
+		<info>Editor_SELECT_Find : 25 lines</info>
+	</step>
+	<step title="Editor_SELECT_Start">
+		<info>Editor_SELECT_Start : 69 lines</info>
+	</step>
+	<step title="Editor_SELECT_DRAW">
+		<info>Editor_SELECT_DRAW : 87 lines</info>
+	</step>
+	<step title="Editor_SELECT_End">
+		<info>Editor_SELECT_End : 64 lines</info>
+	</step>
+	<step title="Editor_SELECT_Get">
+		<info>Editor_SELECT_Get : 5 lines</info>
+	</step>
+	<step title="Editor_SELECT_SET">
+		<info>Editor_SELECT_SET : 5 lines</info>
+	</step>
+	<step title="Editor_SELECT_Clear">
+		<info>Editor_SELECT_Clear : 40 lines</info>
+	</step>
+	<step title="Editor_SELECT_Add">
+		<info>Editor_SELECT_Add : 66 lines</info>
+	</step>
+	<step title="Editor_SELECT_Handle">
+		<info>Editor_SELECT_Handle : 29 lines</info>
+	</step>
+	<step title="Editor_SELECT_Resize">
+		<info>Editor_SELECT_Resize : 527 lines</info>
+	</step>
+	<step title="Editor_SELECT_Move">
+		<info>Editor_SELECT_Move : 81 lines</info>
+	</step>
+	<step title="Editor_SELECT_Objects">
+		<info>Editor_SELECT_Objects : 46 lines</info>
+	</step>
+	<step title="Editor_SELECT_GET_LIST">
+		<info>Editor_SELECT_GET_LIST : 21 lines</info>
+	</step>
+	<step title="Editor_SELECT_Is_object">
+		<info>Editor_SELECT_Is_object : 13 lines</info>
+	</step>
+	<step title="Editor_SELECT_DELETE">
+		<info>Editor_SELECT_DELETE : 101 lines</info>
+	</step>
+	<step title="Editor_SELECT_ALL">
+		<info>Editor_SELECT_ALL : 50 lines</info>
+	</step>
+	<step title="Editor_SELECT_Object">
+		<info>Editor_SELECT_Object : 28 lines</info>
+	</step>
+	<step title="Editor_SELECT_APPEND">
+		<info>Editor_SELECT_APPEND : 8 lines</info>
+	</step>
+	<step title="Editor_SELECT_DISPLAY_HANDLES">
+		<info>Editor_SELECT_DISPLAY_HANDLES : 37 lines</info>
+	</step>
+	<step title="Editor_SELECT">
+		<info>Editor_SELECT : 37 lines</info>
+	</step>
+	<step title="Editor_SELECT_UPDATE_ID">
+		<info>Editor_SELECT_UPDATE_ID : 258 lines</info>
+	</step>
+	<step title="Editor_SELECT_Group">
+		<info>Editor_SELECT_Group : 56 lines</info>
+	</step>
+	<step title="Editor_INIT">
+		<info>Editor_INIT : 34 lines</info>
+	</step>
+	<step title="Editor_RESIZE">
+		<info>Editor_RESIZE : 33 lines</info>
+	</step>
+	<step title="Editor_SET_ZOOM">
+		<info>Editor_SET_ZOOM : 154 lines</info>
+	</step>
+	<step title="Editor_OBJECT_CREATE">
+		<info>Editor_OBJECT_CREATE : 17 lines</info>
+	</step>
+	<step title="Editor_Get_data">
+		<info>Editor_Get_data : 13 lines</info>
+	</step>
+	<step title="Editor_Get_imageData">
+		<info>Editor_Get_imageData : 13 lines</info>
+	</step>
+	<step title="editor_TOOL_UNDO">
+		<info>editor_TOOL_UNDO : 9 lines</info>
+	</step>
+	<step title="editor_TOOL_SELECT_ALL">
+		<info>editor_TOOL_SELECT_ALL : 9 lines</info>
+	</step>
+	<step title="editor_TOOL_REDO">
+		<info>editor_TOOL_REDO : 9 lines</info>
+	</step>
+	<step title="editor_TOOL_DELETE">
+		<info>editor_TOOL_DELETE : 9 lines</info>
+	</step>
+	<step title="Editor_LINK_CREATE">
+		<info>Editor_LINK_CREATE : 15 lines</info>
+	</step>
+	<step title="Editor_GROUP_CREATE">
+		<info>Editor_GROUP_CREATE : 29 lines</info>
+	</step>
+	<step title="Editor_Get_clicked_object">
+		<info>Editor_Get_clicked_object : 12 lines</info>
+	</step>
+	<step title="Editor_GET_SELECTED_OBJECTS">
+		<info>Editor_GET_SELECTED_OBJECTS : 34 lines</info>
+	</step>
+	<step title="Editor_LINK_DELETE">
+		<info>Editor_LINK_DELETE : 23 lines</info>
+	</step>
+	<step title="Editor_GROUP_DELETE">
+		<info>Editor_GROUP_DELETE : 22 lines</info>
+	</step>
+	<step title="Editor_UPDATE">
+		<info>Editor_UPDATE : 108 lines</info>
+	</step>
+	<step title="Editor_Get_image">
+		<info>Editor_Get_image : 15 lines</info>
+	</step>
+	<step title="Editor_Is_debug">
+		<info>Editor_Is_debug : 5 lines</info>
+	</step>
+	<step title="Editor_Get_step_x">
+		<info>Editor_Get_step_x : 5 lines</info>
+	</step>
+	<step title="Editor_Get_step_y">
+		<info>Editor_Get_step_y : 5 lines</info>
+	</step>
+	<step title="Editor_SET_PASTE_X">
+		<info>Editor_SET_PASTE_X : 5 lines</info>
+	</step>
+	<step title="Editor_SET_PASTE_Y">
+		<info>Editor_SET_PASTE_Y : 5 lines</info>
+	</step>
+	<step title="Editor_SET_PASTE_Z">
+		<info>Editor_SET_PASTE_Z : 5 lines</info>
+	</step>
+	<step title="Editor_SET_OFFSET">
+		<info>Editor_SET_OFFSET : 3 lines</info>
+	</step>
+	<step title="Editor_Get_offset_x">
+		<info>Editor_Get_offset_x : 5 lines</info>
+	</step>
+	<step title="Editor_Get_offset_y">
+		<info>Editor_Get_offset_y : 5 lines</info>
+	</step>
+	<step title="Editor_GROW_CLEAR">
+		<info>Editor_GROW_CLEAR : 9 lines</info>
+	</step>
+	<step title="Editor_GROW_Get">
+		<info>Editor_GROW_Get : 57 lines</info>
+	</step>
+	<step title="Editor_GROW_REVERSE">
+		<info>Editor_GROW_REVERSE : 15 lines</info>
+	</step>
+	<step title="Editor_SET_MENU">
+		<info>Editor_SET_MENU : 52 lines</info>
+	</step>
+	<step title="Editor_SET_Direct2D">
+		<info>Editor_SET_Direct2D : 5 lines</info>
+	</step>
+	<step title="Editor_New">
+		<info>Editor_New : 32 lines</info>
+	</step>
+	<step title="SELECT_Move">
+		<info>SELECT_Move : 27 lines</info>
+	</step>
+	<step title="SELECT_Resize">
+		<info>SELECT_Resize : 27 lines</info>
+	</step>
+	<step title="OBJECT_CREATE">
+		<info>OBJECT_CREATE : 58 lines</info>
+	</step>
+	<step title="OBJECT_COMPUTE_SIZE">
+		<info>OBJECT_COMPUTE_SIZE : 56 lines</info>
+	</step>
+	<step title="OBJECT_Put">
+		<info>OBJECT_Put : 107 lines</info>
+	</step>
+	<step title="LINK_CREATE">
+		<info>LINK_CREATE : 100 lines</info>
+	</step>
+	<step title="LINK_Get">
+		<info>LINK_Get : 22 lines</info>
+	</step>
+	<step title="LINK_Objects_exist">
+		<info>LINK_Objects_exist : 30 lines</info>
+	</step>
+	<step title="LINK_Put">
+		<info>LINK_Put : 134 lines</info>
+	</step>
+	<step title="LINK_UPDATE">
+		<info>LINK_UPDATE : 27 lines</info>
+	</step>
+	<step title="LINK_UPDATE_ONE">
+		<info>LINK_UPDATE_ONE : 103 lines</info>
+	</step>
+	<step title="LINK_SIDES">
+		<info>LINK_SIDES : 54 lines</info>
+	</step>
+	<step title="LINK_Delete">
+		<info>LINK_Delete : 66 lines</info>
+	</step>
+	<step title="HISTORY_APPEND">
+		<info>HISTORY_APPEND : 21 lines</info>
+	</step>
+	<step title="HISTORY_CLEAR">
+		<info>HISTORY_CLEAR : 5 lines</info>
+	</step>
+	<step title="HISTORY_FORWARD">
+		<info>HISTORY_FORWARD : 10 lines</info>
+	</step>
+	<step title="HISTORY_RESTORE">
+		<info>HISTORY_RESTORE : 203 lines</info>
+	</step>
+	<step title="HISTORY_REWIND">
+		<info>HISTORY_REWIND : 7 lines</info>
+	</step>
+	<step title="HISTORY_UPDATE_SELECTS">
+		<info>HISTORY_UPDATE_SELECTS : 21 lines</info>
+	</step>
+	<step title="HISTORY_Is_new_selection">
+		<info>HISTORY_Is_new_selection : 34 lines</info>
+	</step>
+	<step title="GROUP_UPDATE">
+		<info>GROUP_UPDATE : 27 lines</info>
+	</step>
+	<step title="GROUP_CREATE">
+		<info>GROUP_CREATE : 169 lines</info>
+	</step>
+	<step title="GROUP_Put">
+		<info>GROUP_Put : 107 lines</info>
+	</step>
+	<step title="GROUP_Delete">
+		<info>GROUP_Delete : 80 lines</info>
+	</step>
+	<step title="GROUP_exist">
+		<info>GROUP_exist : 30 lines</info>
+	</step>
+	<step title="GROUP_UPDATE_ONE">
+		<info>GROUP_UPDATE_ONE : 59 lines</info>
+	</step>
+	<step title="GROUP_GET_SIZE">
+		<info>GROUP_GET_SIZE : 84 lines</info>
+	</step>
+	<step title="Editor_ON_LOAD">
+		<info>Editor_ON_LOAD : 77 lines</info>
+	</step>
+	<step title="Editor_ON_FOCUS">
+		<info>Editor_ON_FOCUS : 0 lines</info>
+	</step>
+	<step title="Editor_ON_BLUR">
+		<info>Editor_ON_BLUR : 0 lines</info>
+	</step>
+	<step title="Editor_ON_UNLOAD">
+		<info>Editor_ON_UNLOAD : 11 lines</info>
+	</step>
+	<step title="Editor_ON_TIMER">
+		<info>Editor_ON_TIMER : 21 lines</info>
+	</step>
+	<step title="Editor_ON_CLICK">
+		<info>Editor_ON_CLICK : 33 lines</info>
+	</step>
+	<step title="DOM_ERROR">
+		<info>DOM_ERROR : 1 lines</info>
+	</step>
+	<step title="DOM_ELEMENT_REFRESH_ID">
+		<info>DOM_ELEMENT_REFRESH_ID : 36 lines</info>
+	</step>
+	<step title="Loading_ON_LOAD">
+		<info>Loading_ON_LOAD : 12 lines</info>
+	</step>
+	<step title="Loading_ON_TIMER">
+		<info>Loading_ON_TIMER : 59 lines</info>
+	</step>
+	<step title="Loading_ON_UNLOAD">
+		<info>Loading_ON_UNLOAD : 1 lines</info>
+	</step>
+	<step title="getClass">
+		<info>getClass : 8 lines</info>
+	</step>
+	<step title="forms">
+		<info>forms : 28 lines</info>
+	</step>
+	<info>96 project methods</info>
+</step>
+<step title="プロジェクトフォームを検査">
+	<step title="DPI">
+		<step title="DPI.Page1.Button0 ()">
+			<info>DPI.Page1.Button0 () : 7 lines</info>
+		</step>
+		<step title="DPI.Page1.Button1 ()">
+			<info>DPI.Page1.Button1 () : 7 lines</info>
+		</step>
+	</step>
+	<step title="convert">
+		<step title="convert.Page0.Image ()">
+			<info>convert.Page0.Image () : 20 lines</info>
+		</step>
+		<step title="convert.Page1.Codec ()">
+			<info>convert.Page1.Codec () : 30 lines</info>
+		</step>
+	</step>
+	<step title="viewport-fill">
+		<step title="viewport-fill.Page1.Image ()">
+			<info>viewport-fill.Page1.Image () : 9 lines</info>
+		</step>
+		<step title="viewport-fill.Page1.Button0 ()">
+			<info>viewport-fill.Page1.Button0 () : 7 lines</info>
+		</step>
+		<step title="viewport-fill.Page1.Button1 ()">
+			<info>viewport-fill.Page1.Button1 () : 7 lines</info>
+		</step>
+	</step>
+	<step title="cropping">
+		<step title="cropping.Page1.Image ()">
+			<info>cropping.Page1.Image () : 6 lines</info>
+		</step>
+		<step title="cropping.Page1.Button3 ()">
+			<info>cropping.Page1.Button3 () : 10 lines</info>
+		</step>
+		<step title="cropping.Page1.Button4 ()">
+			<info>cropping.Page1.Button4 () : 5 lines</info>
+		</step>
+		<step title="cropping.Page1.Button5 ()">
+			<info>cropping.Page1.Button5 () : 10 lines</info>
+		</step>
+		<step title="cropping.Page1.Button1 ()">
+			<info>cropping.Page1.Button1 () : 10 lines</info>
+		</step>
+		<step title="cropping.Page1.Button2 ()">
+			<info>cropping.Page1.Button2 () : 5 lines</info>
+		</step>
+		<step title="cropping.Page1.Button6 ()">
+			<info>cropping.Page1.Button6 () : 10 lines</info>
+		</step>
+		<step title="cropping.Page1.Button10 ()">
+			<info>cropping.Page1.Button10 () : 11 lines</info>
+		</step>
+		<step title="cropping.Page1.Button7 ()">
+			<info>cropping.Page1.Button7 () : 11 lines</info>
+		</step>
+		<step title="cropping.Page1.Button8 ()">
+			<info>cropping.Page1.Button8 () : 5 lines</info>
+		</step>
+		<step title="cropping.Page1.Button9 ()">
+			<info>cropping.Page1.Button9 () : 11 lines</info>
+		</step>
+		<step title="cropping.Page1.Button11 ()">
+			<info>cropping.Page1.Button11 () : 5 lines</info>
+		</step>
+		<step title="cropping.Page1.Button12 ()">
+			<info>cropping.Page1.Button12 () : 11 lines</info>
+		</step>
+	</step>
+	<step title="large">
+		<step title="large.Page1.Image ()">
+			<info>large.Page1.Image () : 6 lines</info>
+		</step>
+		<step title="large.Page1.Button ()">
+			<info>large.Page1.Button () : 4 lines</info>
+		</step>
+		<step title="large.Page1.Button1 ()">
+			<info>large.Page1.Button1 () : 4 lines</info>
+		</step>
+	</step>
+	<step title="text">
+		<step title="text">
+			<info>text : 32 lines</info>
+		</step>
+		<step title="text.Page1.Text ()">
+			<info>text.Page1.Text () : 14 lines</info>
+		</step>
+		<step title="text.Page1.Button ()">
+			<info>text.Page1.Button () : 1 lines</info>
+		</step>
+		<step title="text.Page1.Button1 ()">
+			<info>text.Page1.Button1 () : 1 lines</info>
+		</step>
+		<step title="text.Page1.Button2 ()">
+			<info>text.Page1.Button2 () : 1 lines</info>
+		</step>
+	</step>
+	<step title="textArea">
+		<step title="textArea">
+			<info>textArea : 32 lines</info>
+		</step>
+		<step title="textArea.Page1.Text ()">
+			<info>textArea.Page1.Text () : 14 lines</info>
+		</step>
+		<step title="textArea.Page1.Button ()">
+			<info>textArea.Page1.Button () : 1 lines</info>
+		</step>
+		<step title="textArea.Page1.Button1 ()">
+			<info>textArea.Page1.Button1 () : 1 lines</info>
+		</step>
+		<step title="textArea.Page1.Button2 ()">
+			<info>textArea.Page1.Button2 () : 1 lines</info>
+		</step>
+		<step title="textArea.Page1.Button3 ()">
+			<info>textArea.Page1.Button3 () : 1 lines</info>
+		</step>
+		<step title="textArea.Page1.Button4 ()">
+			<info>textArea.Page1.Button4 () : 1 lines</info>
+		</step>
+		<step title="textArea.Page1.Button5 ()">
+			<info>textArea.Page1.Button5 () : 1 lines</info>
+		</step>
+	</step>
+	<step title="scaling">
+		<step title="scaling.Page1.Image ()">
+			<info>scaling.Page1.Image () : 6 lines</info>
+		</step>
+		<step title="scaling.Page1.Button ()">
+			<info>scaling.Page1.Button () : 2 lines</info>
+		</step>
+		<step title="scaling.Page1.Button1 ()">
+			<info>scaling.Page1.Button1 () : 5 lines</info>
+		</step>
+		<step title="scaling.Page1.Button2 ()">
+			<info>scaling.Page1.Button2 () : 2 lines</info>
+		</step>
+		<step title="scaling.Page1.Button3 ()">
+			<error error_type="0" error_num="0">scaling.Page1.Button3 ()はscaling.Page1.Button ()と同じメソッドを指しています。</error>
+			<info>scaling.Page1.Button3 () : 2 lines</info>
+		</step>
+		<step title="scaling.Page1.Button4 ()">
+			<error error_type="0" error_num="0">scaling.Page1.Button4 ()はscaling.Page1.Button1 ()と同じメソッドを指しています。</error>
+			<info>scaling.Page1.Button4 () : 5 lines</info>
+		</step>
+		<step title="scaling.Page1.Button5 ()">
+			<info>scaling.Page1.Button5 () : 2 lines</info>
+		</step>
+		<step title="scaling.Page1.Scale ()">
+			<info>scaling.Page1.Scale () : 20 lines</info>
+		</step>
+		<step title="scaling.Page1.Button7 ()">
+			<info>scaling.Page1.Button7 () : 8 lines</info>
+		</step>
+		<step title="scaling.Page1.Button8 ()">
+			<info>scaling.Page1.Button8 () : 5 lines</info>
+		</step>
+		<step title="scaling.Page1.Button9 ()">
+			<info>scaling.Page1.Button9 () : 8 lines</info>
+		</step>
+	</step>
+	<step title="detached-dom">
+		<step title="detached-dom">
+			<info>detached-dom : 16 lines</info>
+		</step>
+		<step title="detached-dom.Page1.Image ()">
+			<info>detached-dom.Page1.Image () : 37 lines</info>
+		</step>
+		<step title="detached-dom.Page1.Button0 ()">
+			<info>detached-dom.Page1.Button0 () : 13 lines</info>
+		</step>
+		<step title="detached-dom.Page1.Button ()">
+			<info>detached-dom.Page1.Button () : 13 lines</info>
+		</step>
+		<step title="detached-dom.Page1.Button1 ()">
+			<info>detached-dom.Page1.Button1 () : 13 lines</info>
+		</step>
+		<step title="detached-dom.Page1.Button2 ()">
+			<info>detached-dom.Page1.Button2 () : 13 lines</info>
+		</step>
+		<step title="detached-dom.Page1.Button3 ()">
+			<info>detached-dom.Page1.Button3 () : 13 lines</info>
+		</step>
+		<step title="detached-dom.Page1.Button4 ()">
+			<info>detached-dom.Page1.Button4 () : 13 lines</info>
+		</step>
+		<step title="detached-dom.Page1.Button5 ()">
+			<info>detached-dom.Page1.Button5 () : 13 lines</info>
+		</step>
+		<step title="detached-dom.Page1.Button6 ()">
+			<info>detached-dom.Page1.Button6 () : 13 lines</info>
+		</step>
+		<step title="detached-dom.Page1.Button7 ()">
+			<info>detached-dom.Page1.Button7 () : 13 lines</info>
+		</step>
+		<step title="detached-dom.Page1.Button8 ()">
+			<info>detached-dom.Page1.Button8 () : 13 lines</info>
+		</step>
+		<step title="detached-dom.Page1.Button9 ()">
+			<info>detached-dom.Page1.Button9 () : 13 lines</info>
+		</step>
+	</step>
+	<step title="double-dom">
+		<step title="double-dom">
+			<info>double-dom : 16 lines</info>
+		</step>
+		<step title="double-dom.Page1.Image ()">
+			<info>double-dom.Page1.Image () : 37 lines</info>
+		</step>
+		<step title="double-dom.Page1.Button0 ()">
+			<info>double-dom.Page1.Button0 () : 13 lines</info>
+		</step>
+		<step title="double-dom.Page1.Button ()">
+			<info>double-dom.Page1.Button () : 13 lines</info>
+		</step>
+		<step title="double-dom.Page1.Button1 ()">
+			<info>double-dom.Page1.Button1 () : 13 lines</info>
+		</step>
+		<step title="double-dom.Page1.Button2 ()">
+			<info>double-dom.Page1.Button2 () : 13 lines</info>
+		</step>
+		<step title="double-dom.Page1.Button3 ()">
+			<info>double-dom.Page1.Button3 () : 13 lines</info>
+		</step>
+		<step title="double-dom.Page1.Button4 ()">
+			<info>double-dom.Page1.Button4 () : 13 lines</info>
+		</step>
+		<step title="double-dom.Page1.Button5 ()">
+			<info>double-dom.Page1.Button5 () : 13 lines</info>
+		</step>
+		<step title="double-dom.Page1.Button6 ()">
+			<info>double-dom.Page1.Button6 () : 13 lines</info>
+		</step>
+		<step title="double-dom.Page1.Button7 ()">
+			<info>double-dom.Page1.Button7 () : 13 lines</info>
+		</step>
+		<step title="double-dom.Page1.Button8 ()">
+			<info>double-dom.Page1.Button8 () : 13 lines</info>
+		</step>
+		<step title="double-dom.Page1.Button9 ()">
+			<info>double-dom.Page1.Button9 () : 13 lines</info>
+		</step>
+	</step>
+	<step title="embedded-dom">
+		<step title="embedded-dom">
+			<info>embedded-dom : 15 lines</info>
+		</step>
+		<step title="embedded-dom.Page1.Image ()">
+			<info>embedded-dom.Page1.Image () : 32 lines</info>
+		</step>
+		<step title="embedded-dom.Page1.Button0 ()">
+			<info>embedded-dom.Page1.Button0 () : 9 lines</info>
+		</step>
+		<step title="embedded-dom.Page1.Button ()">
+			<info>embedded-dom.Page1.Button () : 9 lines</info>
+		</step>
+		<step title="embedded-dom.Page1.Button1 ()">
+			<info>embedded-dom.Page1.Button1 () : 9 lines</info>
+		</step>
+		<step title="embedded-dom.Page1.Button2 ()">
+			<info>embedded-dom.Page1.Button2 () : 9 lines</info>
+		</step>
+		<step title="embedded-dom.Page1.Button3 ()">
+			<info>embedded-dom.Page1.Button3 () : 9 lines</info>
+		</step>
+		<step title="embedded-dom.Page1.Button4 ()">
+			<info>embedded-dom.Page1.Button4 () : 9 lines</info>
+		</step>
+		<step title="embedded-dom.Page1.Button5 ()">
+			<info>embedded-dom.Page1.Button5 () : 9 lines</info>
+		</step>
+		<step title="embedded-dom.Page1.Button6 ()">
+			<info>embedded-dom.Page1.Button6 () : 9 lines</info>
+		</step>
+		<step title="embedded-dom.Page1.Button7 ()">
+			<info>embedded-dom.Page1.Button7 () : 9 lines</info>
+		</step>
+		<step title="embedded-dom.Page1.Button8 ()">
+			<info>embedded-dom.Page1.Button8 () : 9 lines</info>
+		</step>
+		<step title="embedded-dom.Page1.Button9 ()">
+			<info>embedded-dom.Page1.Button9 () : 9 lines</info>
+		</step>
+	</step>
+	<step title="no-dom">
+		<step title="no-dom">
+			<info>no-dom : 15 lines</info>
+		</step>
+		<step title="no-dom.Page1.Image ()">
+			<info>no-dom.Page1.Image () : 31 lines</info>
+		</step>
+		<step title="no-dom.Page1.Button0 ()">
+			<info>no-dom.Page1.Button0 () : 9 lines</info>
+		</step>
+		<step title="no-dom.Page1.Button ()">
+			<info>no-dom.Page1.Button () : 11 lines</info>
+		</step>
+		<step title="no-dom.Page1.Button1 ()">
+			<info>no-dom.Page1.Button1 () : 9 lines</info>
+		</step>
+		<step title="no-dom.Page1.Button2 ()">
+			<info>no-dom.Page1.Button2 () : 9 lines</info>
+		</step>
+		<step title="no-dom.Page1.Button3 ()">
+			<info>no-dom.Page1.Button3 () : 9 lines</info>
+		</step>
+		<step title="no-dom.Page1.Button4 ()">
+			<info>no-dom.Page1.Button4 () : 9 lines</info>
+		</step>
+		<step title="no-dom.Page1.Button5 ()">
+			<info>no-dom.Page1.Button5 () : 9 lines</info>
+		</step>
+		<step title="no-dom.Page1.Button6 ()">
+			<info>no-dom.Page1.Button6 () : 9 lines</info>
+		</step>
+		<step title="no-dom.Page1.Button7 ()">
+			<info>no-dom.Page1.Button7 () : 9 lines</info>
+		</step>
+		<step title="no-dom.Page1.Button8 ()">
+			<info>no-dom.Page1.Button8 () : 9 lines</info>
+		</step>
+		<step title="no-dom.Page1.Button9 ()">
+			<info>no-dom.Page1.Button9 () : 9 lines</info>
+		</step>
+	</step>
+	<step title="image">
+		<step title="image">
+			<info>image : 126 lines</info>
+		</step>
+		<step title="image.Page0.P1 ()">
+			<info>image.Page0.P1 () : 1 lines</info>
+		</step>
+		<step title="image.Page0.P2 ()">
+			<info>image.Page0.P2 () : 1 lines</info>
+		</step>
+		<step title="image.Page0.P3 ()">
+			<info>image.Page0.P3 () : 1 lines</info>
+		</step>
+		<step title="image.Page1.Image1 ()">
+			<info>image.Page1.Image1 () : 13 lines</info>
+		</step>
+		<step title="image.Page2.Image2 ()">
+			<info>image.Page2.Image2 () : 13 lines</info>
+		</step>
+		<step title="image.Page3.Image3 ()">
+			<info>image.Page3.Image3 () : 13 lines</info>
+		</step>
+	</step>
+	<step title="event">
+		<step title="event">
+			<info>event : 142 lines</info>
+		</step>
+		<step title="event.Page0.P1 ()">
+			<info>event.Page0.P1 () : 1 lines</info>
+		</step>
+		<step title="event.Page0.P2 ()">
+			<info>event.Page0.P2 () : 1 lines</info>
+		</step>
+		<step title="event.Page0.P3 ()">
+			<info>event.Page0.P3 () : 1 lines</info>
+		</step>
+		<step title="event.Page1.Image1 ()">
+			<info>event.Page1.Image1 () : 13 lines</info>
+		</step>
+		<step title="event.Page2.Image2 ()">
+			<info>event.Page2.Image2 () : 13 lines</info>
+		</step>
+		<step title="event.Page3.Image3 ()">
+			<info>event.Page3.Image3 () : 13 lines</info>
+		</step>
+	</step>
+	<step title="logo">
+		<step title="logo.Page1.Image ()">
+			<info>logo.Page1.Image () : 6 lines</info>
+		</step>
+	</step>
+	<step title="filter">
+		<step title="filter.Page1.Image ()">
+			<info>filter.Page1.Image () : 1 lines</info>
+		</step>
+		<step title="filter.Page1.Clean ()">
+			<info>filter.Page1.Clean () : 7 lines</info>
+		</step>
+		<step title="filter.Page1.Blur ()">
+			<info>filter.Page1.Blur () : 42 lines</info>
+		</step>
+	</step>
+	<step title="editor">
+		<step title="editor">
+			<info>editor : 26 lines</info>
+		</step>
+		<step title="editor.Page1.Image ()">
+			<info>editor.Page1.Image () : 20 lines</info>
+		</step>
+	</step>
+	<step title="editor-demo">
+		<step title="editor-demo">
+			<info>editor-demo : 8 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Editor">
+			<info>editor-demo.Page1.Editor : 41 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Zoom ()">
+			<info>editor-demo.Page1.Zoom () : 14 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Button ()">
+			<info>editor-demo.Page1.Button () : 36 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Button1 ()">
+			<info>editor-demo.Page1.Button1 () : 9 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Button2 ()">
+			<info>editor-demo.Page1.Button2 () : 9 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Button4 ()">
+			<info>editor-demo.Page1.Button4 () : 36 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Tool_Delete ()">
+			<info>editor-demo.Page1.Tool_Delete () : 1 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Tool_Undo ()">
+			<info>editor-demo.Page1.Tool_Undo () : 1 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Tool_Redo ()">
+			<info>editor-demo.Page1.Tool_Redo () : 1 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Tool_SelectAll ()">
+			<info>editor-demo.Page1.Tool_SelectAll () : 1 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Button5 ()">
+			<info>editor-demo.Page1.Button5 () : 33 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Button6 ()">
+			<info>editor-demo.Page1.Button6 () : 33 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Button7 ()">
+			<info>editor-demo.Page1.Button7 () : 33 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Button8 ()">
+			<info>editor-demo.Page1.Button8 () : 33 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Button9 ()">
+			<info>editor-demo.Page1.Button9 () : 14 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Group ()">
+			<info>editor-demo.Page1.Group () : 40 lines</info>
+		</step>
+		<step title="editor-demo.Page1.Ungroup ()">
+			<info>editor-demo.Page1.Ungroup () : 1 lines</info>
+		</step>
+	</step>
+	<step title="animation">
+		<step title="animation">
+			<info>animation : 19 lines</info>
+		</step>
+		<step title="animation.Page0.Invisible Button (Invisible Button)">
+			<info>animation.Page0.Invisible Button (Invisible Button) : 5 lines</info>
+		</step>
+		<step title="animation.Page1.Loading">
+			<info>animation.Page1.Loading : 19 lines</info>
+		</step>
+	</step>
+	<step title="loading">
+		<step title="loading">
+			<info>loading : 59 lines</info>
+		</step>
+	</step>
+	<step title="map">
+		<step title="map.Page1.Image ()">
+			<info>map.Page1.Image () : 10 lines</info>
+		</step>
+	</step>
+	<info>21 project forms</info>
+</step>
+<step title="テーブルフォームを検査">
+	<info>0 table forms</info>
+</step>
+<step title="リンクのないフォームを検査">
+</step>
+<step title="ユーザー＆グループ情報を検査">
+</step>
+<step title="ヘルプTipsを検査">
+</step>
+<step title="エクスプローラーのフォルダーを検査">
+	<step title="ごみ箱">
+	</step>
+	<step title="Editor-Private">
+	</step>
+	<step title="SVG">
+	</step>
+	<step title="Editor-Public">
+	</step>
+	<step title="Editor-Select">
+	</step>
+	<step title="Editor-Object">
+	</step>
+	<step title="Editor-Link">
+	</step>
+	<step title="Editor-History">
+	</step>
+	<step title="Editor-Group">
+	</step>
+	<step title="Editor">
+	</step>
+	<step title="DOM">
+	</step>
+	<step title="Loading">
+	</step>
+</step>
+<step title="メニューバーとメニューを検査">
+</step>
+<step title="Check Lists">
+</step>
+<step title="リンクのないメソッドを検査">
+	<warning warning_type="0" warning_num="0">ID 15のメソッドリソース CC4Dはどこにも使用されていません</warning>
+	<warning warning_type="0" warning_num="0">ID 14のメソッドリソース CC4Dはどこにも使用されていません</warning>
+</step>
+<stop_timer time="2016-04-26T10:59:07+02:00" success="true" user_canceled="false"/>
+</verifylog>

@@ -1,0 +1,49 @@
+{
+	"messages": [
+		{
+			"message": "Compatibility setting 'Use object notation to access object properties' switched on.",
+			"severity": "warning"
+		},
+		{
+			"message": "Compatibility setting 'Use date type instead of ISO date format in objects' switched on.",
+			"severity": "warning"
+		},
+		{
+			"form": "image",
+			"object": "P1",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"form": "image",
+			"object": "P2",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"form": "image",
+			"object": "P3",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"form": "event",
+			"object": "P1",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"form": "event",
+			"object": "P2",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		},
+		{
+			"form": "event",
+			"object": "P3",
+			"message": "Highlight buttons are unsupported and converted as invisible buttons. You may consider using 3D buttons instead.",
+			"severity": "warning"
+		}
+	],
+	"success": true
+}
